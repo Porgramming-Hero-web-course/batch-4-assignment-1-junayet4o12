@@ -28,6 +28,7 @@ const square = { kind: "square", sideLength: 4 };
 
 console.log(calculate(circle)); // Output: 78.53981633974483
 console.log(calculate(square)); // Output: 16
+```
 
 # Understanding the Power of Intersection Types in TypeScript
 
