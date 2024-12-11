@@ -30,11 +30,6 @@ console.log(calculate(circle)); // Output: 78.53981633974483
 console.log(calculate(square)); // Output: 16
 ```
 
-# Understanding the Power of Intersection Types in TypeScript
-
-TypeScript's **intersection** types allow you to combine multiple types into one, ensuring that a value satisfies all the specified requirements. This is useful when an object needs to have properties or behaviors from multiple sources. Here's an easy example to understand.
-
----
 
 ## Intersection Types: Combining Multiple Types
 
