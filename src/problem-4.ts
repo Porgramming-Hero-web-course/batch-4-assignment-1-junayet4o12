@@ -9,7 +9,9 @@
         width: number;
         height: number;
     }
-    const calculateShapeArea = (area: Circle | Rectangle): number => {
+
+    type Shape = Circle | Rectangle; // Union type for the shape
+    const calculateShapeArea = (area: Shape): number => {
         if (area.shape === 'circle') {
             return Math.PI * Math.pow(area.radius, 2) // Calculating the area of the circle
         } else if (area.shape === 'rectangle') {
@@ -19,11 +21,11 @@
         }
     }
 
-    const circle: Circle = { shape: 'circle', radius: 3 };
+    const circle: Shape = { shape: 'circle', radius: 3 };
     const circleArea: number = calculateShapeArea(circle);
     console.log('Circle Area', circleArea);
 
-    const rectangle: Rectangle = { shape: 'rectangle', width: 3, height: 4 };
+    const rectangle: Shape = { shape: 'rectangle', width: 3, height: 4 };
     const rectangleArea: number = calculateShapeArea(rectangle);
     console.log('Rectangle Area', rectangleArea);
 
