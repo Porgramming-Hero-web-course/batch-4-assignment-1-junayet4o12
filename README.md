@@ -26,8 +26,8 @@ function calculate(shape: Shape): number {
 const circle = { kind: "circle", radius: 5 };
 const square = { kind: "square", sideLength: 4 };
 
-console.log(calculate(circle)); // Output: 78.53981633974483
-console.log(calculate(square)); // Output: 16
+console.log(calculate(circle));
+console.log(calculate(square));
 ```
 
 
@@ -46,5 +46,6 @@ const person: Person = {
   age: 25,
 };
 
-console.log(person.name); // Output: Alice
-console.log(person.age);  // Output: 25
+console.log(person.name);
+console.log(person.age);
+```
